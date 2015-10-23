@@ -1,0 +1,12 @@
+package:
+    name:           php-merchant-epayservice
+    namespace:      hiqdev\php\merchant\epayservice
+    title:          ePayService plugin for PHP merchant library
+    type:           library
+    keywords:       php, epayservice, merchant
+    description:    |
+        [ePayService](http://epayservices.com/) plugin for [PHP merchant library](https://github.com/hiqdev/php-merchant).
+
+require:
+    hiqdev/hidev-config:        "*"
+    hiqdev/hidev-config-php:    "*"
