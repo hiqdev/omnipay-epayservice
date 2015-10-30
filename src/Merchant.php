@@ -14,7 +14,7 @@ namespace hiqdev\php\merchant\epayservice;
 class Merchant extends \hiqdev\php\merchant\Merchant
 {
     protected static $_defaults = [
-        'name'        => 'epayservice',
+        'system'      => 'epayservice',
         'label'       => 'ePayService',
         'actionUrl'   => 'https://online.epayservices.com/merchant/index.php',
         'confirmText' => 'OK',
