@@ -41,11 +41,11 @@ class Merchant extends \hiqdev\php\merchant\Merchant
     public function validateConfirmation($data)
     {
         if ($data['EPS_RESULT'] === 'fail') {
-            return 'failed at paysystem';
+            return 'Failed at paysystem';
         }
-        $str = $data['EPS_AMOUNT'] . $this->purse . $this->secret;
+        $str = $data['EPS_AMOUNT'] . $this->purse . $this->_secret;
         if (md5($str) !== strtolower($data['check_key'])) {
-            return 'wrong hash';
+            return 'Wrong hash';
         }
         if ($data['EPS_RESULT'] !== 'done') {
             die(json_encode('OK')); ### THIS IS THE RETURN FOR SYSTEM
