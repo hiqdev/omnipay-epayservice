@@ -1,19 +1,21 @@
 {
-    "name": "hiqdev/php-merchant-epayservice",
+    "name": "hiqdev/omnipay-epayservice",
     "type": "library",
-    "description": "ePayService plugin for PHP merchant library",
+    "description": "ePayService driver for the Omnipay PHP payment processing library",
     "keywords": [
         "php",
+        "omnipay",
         "epayservice",
-        "merchant"
+        "merchant",
+        "payment"
     ],
-    "homepage": "https://github.com/hiqdev/php-merchant-epayservice",
-    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/hiqdev/omnipay-epayservice",
+    "license": "MIT",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/php-merchant-epayservice",
-        "issues": "https://github.com/hiqdev/php-merchant-epayservice/issues",
-        "wiki": "https://github.com/hiqdev/php-merchant-epayservice/wiki",
+        "source": "https://github.com/hiqdev/omnipay-epayservice",
+        "issues": "https://github.com/hiqdev/omnipay-epayservice/issues",
+        "wiki": "https://github.com/hiqdev/omnipay-epayservice/wiki",
         "forum": "http://forum.hiqdev.com/"
     },
     "authors": [
@@ -43,11 +45,11 @@
         }
     ],
     "require": {
-        "hiqdev/php-merchant": "*"
+        "omnipay/common": "~2.3"
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\php\\merchant\\epayservice\\": "src"
+            "Omnipay\\ePayService\\": "src"
         }
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
 $header = <<<EOF
-ePayService plugin for PHP merchant library
+ePayService driver for the Omnipay PHP payment processing library
 
-@link      https://github.com/hiqdev/php-merchant-epayservice
-@package   php-merchant-epayservice
-@license   BSD-3-Clause
+@link      https://github.com/hiqdev/omnipay-epayservice
+@package   omnipay-epayservice
+@license   MIT
 @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
 EOF;
 

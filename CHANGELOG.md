@@ -1,5 +1,5 @@
-hiqdev/php-merchant-epayservice changelog
------------------------------------------
+hiqdev/omnipay-epayservice changelog
+------------------------------------
 
 ## Under development
 
