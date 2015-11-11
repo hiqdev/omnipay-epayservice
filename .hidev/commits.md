@@ -4,6 +4,7 @@ hiqdev/omnipay-epayservice commits history
 ## Under development
 
 - Changed: redone to 'omnipay-epayservice'
+    - 6fa42cb 2015-11-11 still redoing to omnipay (sol@hiqdev.com)
     - 219c624 2015-11-11 still redoing to omnipay (sol@hiqdev.com)
     - 83a13d4 2015-11-06 started redoing to 'omnipay-epayservice' (sol@hiqdev.com)
 - Added basics
