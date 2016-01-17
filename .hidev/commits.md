@@ -4,6 +4,7 @@ hiqdev/omnipay-epayservice commits history
 ## Under development
 
 - Changed: redone to `omnipay-epayservice`
+    - 57636af 2016-01-17 fixed build (sol@hiqdev.com)
     - 3722b88 2015-12-11 removed assets, now in `payment-icons` (sol@hiqdev.com)
     - 6fa42cb 2015-11-11 still redoing to omnipay (sol@hiqdev.com)
     - 219c624 2015-11-11 still redoing to omnipay (sol@hiqdev.com)
