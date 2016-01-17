@@ -6,6 +6,8 @@ Omnipay: ePayService
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/omnipay-epayservice/v/stable)](https://packagist.org/packages/hiqdev/omnipay-epayservice)
 [![Total Downloads](https://poser.pugx.org/hiqdev/omnipay-epayservice/downloads)](https://packagist.org/packages/hiqdev/omnipay-epayservice)
 [![Build Status](https://img.shields.io/travis/hiqdev/omnipay-epayservice.svg)](https://travis-ci.org/hiqdev/omnipay-epayservice)
+[![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/omnipay-epayservice/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/omnipay-epayservice/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/omnipay-epayservice/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/omnipay-epayservice/?branch=master)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:omnipay-epayservice/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:omnipay-epayservice/dev-master)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
@@ -56,4 +58,4 @@ or better yet, fork the library and submit a pull request.
 This project is released under the terms of the MIT [license](LICENSE).
 Read more [here](http://choosealicense.com/licenses/mit).
 
-Copyright © 2015, HiQDev (http://hiqdev.com/)
+Copyright © 2015-2016, HiQDev (http://hiqdev.com/)
