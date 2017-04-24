@@ -34,8 +34,23 @@ class CompletePurchaseResponse extends AbstractResponse
         }
     }
 
+    public function getHash()
+    {
+        return strtolower($this->data['check_key']);
+    }
+
+    public function calculateHash()
+    {
+        return md5($this->data['EPS_AMOUNT'] . $this->data['EPS_GUID'] . $this->data['secret']);
+    }
+
     public function isSuccessful()
     {
         return false;
+    }
+
+    public function getTestMode()
+    {
+        return $this->testMode === true ? true : false;
     }
 }
