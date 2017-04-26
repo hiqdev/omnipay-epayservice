@@ -54,12 +54,13 @@ class CompletePurchaseResponseTest extends TestCase
     public function testSuccess()
     {
         $response = new CompletePurchaseResponse($this->request, [
-            'check_key'                 => $this->hash,
-            'EPS_DESCRIPTION'           => $this->description,
-            'EPS_GUID'                  => $this->purse,
-            'EPS_AMOUNT'                => $this->amount,
-            'EPS_TRID'                  => $this->transactionId,
-            'EPS_ACCNUM'                => $this->transactionReference,
+            'testMode'              => $this->testMode,
+            'check_key'             => $this->hash,
+            'EPS_DESCRIPTION'       => $this->description,
+            'EPS_GUID'              => $this->purse,
+            'EPS_AMOUNT'            => $this->amount,
+            'EPS_TRID'              => $this->transactionId,
+            'EPS_ACCNUM'            => $this->transactionReference,
         ]);
 
         $this->assertTrue($response->isSuccessful());
