@@ -64,11 +64,9 @@ class CompletePurchaseResponseTest extends TestCase
         ]);
 
         $this->assertTrue($response->isSuccessful());
-        $this->assertTrue($response->getTestMode());
         $this->assertSame($this->transactionId,         $response->getTransactionId());
         $this->assertSame($this->transactionReference,  $response->getTransactionReference());
         $this->assertSame($this->amount,                $response->getAmount());
         $this->assertSame($this->hash,                  $response->getHash());
-        $this->assertSame($this->currency,              $response->getCurrency());
     }
 }

@@ -28,10 +28,6 @@ class CompletePurchaseResponse extends AbstractResponse
         if ($this->getHash() !== $this->calculateHash()) {
             throw new InvalidResponseException('Invalid hash');
         }
-
-        if ($this->request->getTestMode() !== $this->getTestMode()) {
-            throw new InvalidResponseException('Invalid test mode');
-        }
     }
 
     public function getHash()
@@ -46,11 +42,26 @@ class CompletePurchaseResponse extends AbstractResponse
 
     public function isSuccessful()
     {
-        return false;
+        return true;
+    }
+
+    public function getTransactionId()
+    {
+        return $this->data['EPS_TRID'];
+    }
+
+    public function getTransactionReference()
+    {
+        return $this->data['EPS_ACCNUM'];
+    }
+
+    public function getAmount()
+    {
+        return $this->data['EPS_AMOUNT'];
     }
 
     public function getTestMode()
     {
-        return $this->testMode === true ? true : false;
+        return (bool) $this->data['testMode'];
     }
 }
