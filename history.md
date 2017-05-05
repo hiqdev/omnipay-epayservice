@@ -1,9 +1,10 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
-## [Under development]
+## [0.1.0] - 2017-05-05
 
 - Implemented testing
+    - [48eb728] 2017-05-05 hideved, csfixed [@SilverFire]
     - [58155c6] 2017-05-05 Merge pull request #1 from bladeroot/omnipay-epayservice-test [@SilverFire]
     - [261e5ee] 2017-04-28 finish [@BladeRoot]
     - [39050a9] 2017-04-24 omnipay-epayservice-test init [@BladeRoot]
@@ -47,3 +48,5 @@ hiqdev/omnipay-epayservice
 [39050a9]: https://github.com/hiqdev/omnipay-epayservice/commit/39050a9
 [Under development]: https://github.com/hiqdev/omnipay-epayservice/releases
 [Under]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/Under
+[48eb728]: https://github.com/hiqdev/omnipay-epayservice/commit/48eb728
+[0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0

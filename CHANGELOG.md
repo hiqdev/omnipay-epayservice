@@ -1,8 +1,9 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
-## [Under development]
+## [0.1.0] - 2017-05-05
 
+- Implemented testing ([@SilverFire], [@BladeRoot])
 - Changed: redone to `omnipay-epayservice` ([@hiqsol])
 - Added basics ([@hiqsol])
 
@@ -18,3 +19,4 @@ hiqdev/omnipay-epayservice
 [bladeroot@gmail.com]: https://github.com/BladeRoot
 [Under development]: https://github.com/hiqdev/omnipay-epayservice/releases
 [Under]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/Under
+[0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0
