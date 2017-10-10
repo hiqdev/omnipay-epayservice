@@ -1,6 +1,10 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
+## [0.1.1] - 2017-10-10
+
+    - [3a07a55] 2017-10-10 Added CompletePurchaseResponse::getCurrency(), enhanced response validity checking [@SilverFire]
+
 ## [0.1.0] - 2017-05-05
 
 - Implemented testing
@@ -46,7 +50,9 @@ hiqdev/omnipay-epayservice
 [58155c6]: https://github.com/hiqdev/omnipay-epayservice/commit/58155c6
 [261e5ee]: https://github.com/hiqdev/omnipay-epayservice/commit/261e5ee
 [39050a9]: https://github.com/hiqdev/omnipay-epayservice/commit/39050a9
-[Under development]: https://github.com/hiqdev/omnipay-epayservice/releases
+[Under development]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...HEAD
 [Under]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/Under
 [48eb728]: https://github.com/hiqdev/omnipay-epayservice/commit/48eb728
 [0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0
+[3a07a55]: https://github.com/hiqdev/omnipay-epayservice/commit/3a07a55
+[0.1.1]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...0.1.1
