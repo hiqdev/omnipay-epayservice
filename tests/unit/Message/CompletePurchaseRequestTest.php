@@ -23,7 +23,6 @@ class CompletePurchaseRequestTest extends TestCase
     private $description            = 'Test Transaction long description';
     private $transactionId          = '1SD672345A890sd';
     private $transactionReference   = 'sdfa1SD672345A8';
-    private $timestamp              = '1454331086';
     private $amount                 = '1465.01';
     private $currency               = 'USD';
     private $testMode               = true;
@@ -39,7 +38,8 @@ class CompletePurchaseRequestTest extends TestCase
             'EPS_AMOUNT'        => $this->amount,
             'EPS_TRID'          => $this->transactionId,
             'EPS_ACCNUM'        => $this->transactionReference,
-            'EPS_GUID'          => $this->purse,
+            'EPS_CURRENCY'      => $this->currency,
+            'EPS_RESULT'        => 'done',
         ]);
 
         $this->request = new CompletePurchaseRequest($this->getHttpClient(), $httpRequest);
@@ -59,6 +59,7 @@ class CompletePurchaseRequestTest extends TestCase
         $this->assertSame($this->hash,          $data['check_key']);
         $this->assertSame($this->amount,        $data['EPS_AMOUNT']);
         $this->assertSame($this->purse,         $data['EPS_GUID']);
+        $this->assertSame($this->currency,      $data['EPS_CURRENCY']);
     }
 
     public function testSendData()

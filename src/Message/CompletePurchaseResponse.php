@@ -41,7 +41,7 @@ class CompletePurchaseResponse extends AbstractResponse
 
     public function isSuccessful()
     {
-        return true;
+        return $this->data['EPS_RESULT'] === 'done';
     }
 
     public function getTransactionId()
@@ -62,5 +62,10 @@ class CompletePurchaseResponse extends AbstractResponse
     public function getTestMode()
     {
         return (bool) $this->data['testMode'];
+    }
+
+    public function getCurrency()
+    {
+        return $this->data['EPS_CURRENCY'];
     }
 }
