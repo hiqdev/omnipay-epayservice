@@ -36,7 +36,7 @@ class CompletePurchaseResponse extends AbstractResponse
 
     public function calculateHash()
     {
-        return md5($this->data['EPS_AMOUNT'] . $this->data['EPS_GUID'] . $this->data['secret']);
+        return md5($this->data['EPS_AMOUNT'] . $this->data['EPS_GUID'] . $this->request->getSecret());
     }
 
     public function isSuccessful()
