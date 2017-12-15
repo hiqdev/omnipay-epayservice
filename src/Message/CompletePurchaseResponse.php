@@ -51,7 +51,7 @@ class CompletePurchaseResponse extends AbstractResponse
 
     public function getTransactionReference()
     {
-        return $this->data['EPS_ACCNUM'];
+        return $this->data['EPS_TRID'];
     }
 
     public function getAmount()
