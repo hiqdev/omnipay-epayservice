@@ -1,6 +1,15 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
+## [3.0.0] - 2019-10-17
+
+- Update to Omnipay v3
+    - [ef5b933] 2019-10-17 Update to Omnipay v3 [@SilverFire]
+- Other minor changes
+    - [86012a9] 2017-12-15 Merge pull request #2 from bladeroot/fix-txn [@SilverFire]
+    - [9f33c8a] 2017-12-15 fix get transaction id [@BladeRoot]
+    - [1123b6c] 2017-11-23 Fixed signature calculationg [@SilverFire]
+
 ## [0.1.1] - 2017-10-10
 
     - [3a07a55] 2017-10-10 Added CompletePurchaseResponse::getCurrency(), enhanced response validity checking [@SilverFire]
@@ -56,3 +65,8 @@ hiqdev/omnipay-epayservice
 [0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0
 [3a07a55]: https://github.com/hiqdev/omnipay-epayservice/commit/3a07a55
 [0.1.1]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...0.1.1
+[ef5b933]: https://github.com/hiqdev/omnipay-epayservice/commit/ef5b933
+[86012a9]: https://github.com/hiqdev/omnipay-epayservice/commit/86012a9
+[9f33c8a]: https://github.com/hiqdev/omnipay-epayservice/commit/9f33c8a
+[1123b6c]: https://github.com/hiqdev/omnipay-epayservice/commit/1123b6c
+[3.0.0]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.1...3.0.0

@@ -1,6 +1,11 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
+## [3.0.0] - 2019-10-17
+
+- Update to Omnipay v3 ([@SilverFire])
+- Other minor changes ([@SilverFire], [@BladeRoot])
+
 ## [0.1.1] - 2017-10-10
 
 ## [0.1.0] - 2017-05-05
@@ -23,3 +28,4 @@ hiqdev/omnipay-epayservice
 [Under]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/Under
 [0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0
 [0.1.1]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...0.1.1
+[3.0.0]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.1...3.0.0

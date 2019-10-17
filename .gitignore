@@ -37,6 +37,7 @@ coverage.clover
 chkipper.phar
 composer.phar
 ocular.phar
+phpstan.phar
 phpunit-skelgen.phar
 
 # PHARs
