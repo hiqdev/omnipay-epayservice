@@ -62,6 +62,6 @@ class PurchaseRequestTest extends TestCase
     {
         $data = $this->request->getData();
         $response = $this->request->sendData($data);
-        $this->assertSame('Omnipay\ePayService\Message\PurchaseResponse', get_class($response));
+        $this->assertInstanceOf(\Omnipay\ePayService\Message\PurchaseResponse::class, $response);
     }
 }

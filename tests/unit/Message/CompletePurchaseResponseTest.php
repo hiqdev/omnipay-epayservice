@@ -11,6 +11,7 @@
 namespace Omnipay\ePayService\Message;
 
 use Omnipay\Tests\TestCase;
+use Omnipay\Common\Exception\InvalidResponseException;
 
 class CompletePurchaseResponseTest extends TestCase
 {
@@ -18,7 +19,7 @@ class CompletePurchaseResponseTest extends TestCase
 
     private $purse                  = 'ec12345';
     private $secret                 = '22SAD#-78G8sdf$88';
-    private $hash                   = '1d4d18e1eea386654e1af89e89f1a104'; // d41d8cd98f00b204e9800998ecf8427e 954f1176a05a5921118f49285beea2bb
+    private $hash                   = 'f974945d5549c760f8f3c9582da49d6e';
     private $description            = 'Test Transaction long description';
     private $transactionId          = '1SD672345A890sd';
     private $transactionReference   = 'sdfa1SD672345A8';
@@ -40,7 +41,8 @@ class CompletePurchaseResponseTest extends TestCase
 
     public function testInvalidHashException()
     {
-        $this->setExpectedException('Omnipay\Common\Exception\InvalidResponseException', 'Invalid hash');
+        $this->expectException(InvalidResponseException::class);
+        $this->expectExceptionMessage('Invalid hash');
         new CompletePurchaseResponse($this->request, [
             'description'           => $this->description,
             'purse'                 => $this->purse,
