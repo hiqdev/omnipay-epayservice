@@ -1,6 +1,11 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
+## [3.0.1] - 2020-12-01
+
+- Pass `MERCHANT_ORDER_ID` to ePayService
+    - [d2368ef] 2020-12-01 Pass MERCHANT_ORDER_ID to ePayService [@SilverFire]
+
 ## [3.0.0] - 2019-10-17
 
 - Update to Omnipay v3
@@ -59,7 +64,7 @@ hiqdev/omnipay-epayservice
 [58155c6]: https://github.com/hiqdev/omnipay-epayservice/commit/58155c6
 [261e5ee]: https://github.com/hiqdev/omnipay-epayservice/commit/261e5ee
 [39050a9]: https://github.com/hiqdev/omnipay-epayservice/commit/39050a9
-[Under development]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...HEAD
+[Under development]: https://github.com/hiqdev/omnipay-epayservice/compare/3.0.0...HEAD
 [Under]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/Under
 [48eb728]: https://github.com/hiqdev/omnipay-epayservice/commit/48eb728
 [0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0
@@ -70,3 +75,5 @@ hiqdev/omnipay-epayservice
 [9f33c8a]: https://github.com/hiqdev/omnipay-epayservice/commit/9f33c8a
 [1123b6c]: https://github.com/hiqdev/omnipay-epayservice/commit/1123b6c
 [3.0.0]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.1...3.0.0
+[d2368ef]: https://github.com/hiqdev/omnipay-epayservice/commit/d2368ef
+[3.0.1]: https://github.com/hiqdev/omnipay-epayservice/compare/3.0.0...3.0.1
