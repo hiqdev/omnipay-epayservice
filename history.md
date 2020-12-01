@@ -1,6 +1,14 @@
 hiqdev/omnipay-epayservice
 --------------------------
 
+## [0.1.2] - 2020-12-01
+
+- Pass transaction ID to EPS
+    - [65a983d] 2020-12-01 Established MERCHANT_ORDER_ID passing [@SilverFire]
+    - [86012a9] 2017-12-15 Merge pull request #2 from bladeroot/fix-txn [@SilverFire]
+    - [9f33c8a] 2017-12-15 fix get transaction id [@BladeRoot]
+    - [1123b6c] 2017-11-23 Fixed signature calculationg [@SilverFire]
+
 ## [0.1.1] - 2017-10-10
 
     - [3a07a55] 2017-10-10 Added CompletePurchaseResponse::getCurrency(), enhanced response validity checking [@SilverFire]
@@ -50,9 +58,14 @@ hiqdev/omnipay-epayservice
 [58155c6]: https://github.com/hiqdev/omnipay-epayservice/commit/58155c6
 [261e5ee]: https://github.com/hiqdev/omnipay-epayservice/commit/261e5ee
 [39050a9]: https://github.com/hiqdev/omnipay-epayservice/commit/39050a9
-[Under development]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...HEAD
+[Under development]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.1...HEAD
 [Under]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/Under
 [48eb728]: https://github.com/hiqdev/omnipay-epayservice/commit/48eb728
 [0.1.0]: https://github.com/hiqdev/omnipay-epayservice/releases/tag/0.1.0
 [3a07a55]: https://github.com/hiqdev/omnipay-epayservice/commit/3a07a55
 [0.1.1]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.0...0.1.1
+[65a983d]: https://github.com/hiqdev/omnipay-epayservice/commit/65a983d
+[86012a9]: https://github.com/hiqdev/omnipay-epayservice/commit/86012a9
+[9f33c8a]: https://github.com/hiqdev/omnipay-epayservice/commit/9f33c8a
+[1123b6c]: https://github.com/hiqdev/omnipay-epayservice/commit/1123b6c
+[0.1.2]: https://github.com/hiqdev/omnipay-epayservice/compare/0.1.1...0.1.2
