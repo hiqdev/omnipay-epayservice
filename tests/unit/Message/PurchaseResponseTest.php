@@ -64,6 +64,7 @@ class PurchaseResponseTest extends TestCase
             'EPS_RESULT_URL'    => $this->notifyUrl,
             'EPS_SUCCESS_URL'   => $this->returnUrl,
             'EPS_FAIL_URL'      => $this->cancelUrl,
+            'MERCHANT_ORDER_ID' => $this->transactionId,
         ], $response->getRedirectData());
     }
 }

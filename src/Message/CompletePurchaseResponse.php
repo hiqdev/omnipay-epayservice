@@ -21,8 +21,7 @@ class CompletePurchaseResponse extends AbstractResponse
 {
     public function __construct(RequestInterface $request, $data)
     {
-        $this->request = $request;
-        $this->data    = $data;
+        parent::__construct($request, $data);
 
         if ($this->getHash() !== $this->calculateHash()) {
             throw new InvalidResponseException('Invalid hash');
@@ -46,12 +45,12 @@ class CompletePurchaseResponse extends AbstractResponse
 
     public function getTransactionId()
     {
-        return $this->data['EPS_TRID'];
+        return $this->data['MERCHANT_ORDER_ID'];
     }
 
     public function getTransactionReference()
     {
-        return $this->data['EPS_ACCNUM'];
+        return $this->data['EPS_TRID'];
     }
 
     public function getAmount()

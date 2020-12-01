@@ -59,10 +59,11 @@ class CompletePurchaseResponseTest extends TestCase
             'EPS_DESCRIPTION'       => $this->description,
             'EPS_GUID'              => $this->purse,
             'EPS_AMOUNT'            => $this->amount,
-            'EPS_TRID'              => $this->transactionId,
-            'EPS_ACCNUM'            => $this->transactionReference,
+            'EPS_TRID'              => $this->transactionReference,
+            'EPS_ACCNUM'            => 'TS1323',
             'EPS_CURRENCY'          => $this->currency,
-            'EPS_RESULT'            => 'done'
+            'EPS_RESULT'            => 'done',
+            'MERCHANT_ORDER_ID'     => $this->transactionId,
         ]);
 
         $this->assertTrue($response->isSuccessful());
