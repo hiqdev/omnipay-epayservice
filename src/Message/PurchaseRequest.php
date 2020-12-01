@@ -27,6 +27,7 @@ class PurchaseRequest extends AbstractRequest
             'EPS_RESULT_URL'  => $this->getNotifyUrl(),
             'EPS_SUCCESS_URL' => $this->getReturnUrl(),
             'EPS_FAIL_URL'    => $this->getCancelUrl(),
+            'MERCHANT_ORDER_ID' => $this->getTransactionId(),
         ];
     }
 
